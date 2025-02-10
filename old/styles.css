@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+	line-height: 1.4em;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: cyan;
+}
+
+body {
+	background-color: white;
+	max-width: 1500px;
+	height: 100%;
+	margin: 0 auto;
+	> * {
+		padding: 40px 0px;
+		margin: 0 auto;
+	}
+}
+
+header {
+	position: relative;
+}
+
+.color {
+	background-color: blue;
+	position: absolute;
+	top: -350px;
+	left: -150px;
+	padding: 300px;
+	width: 150%;
+	z-index: 0;
+	transform: rotate(-10deg);
+}
+
+header > div {
+	display: flex;
+	max-width: 80%;
+	margin: 0 auto;
+}
+header div.rightContents {
+	background-color: white;
+	padding: 20px;
+	align-self: center;
+	> * {
+		margin: 20px;
+	}
+	z-index: 1;
+}
+
+.person {
+	max-width: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+.person h1 {
+	position: absolute;
+	font-size: 2.4em;
+	bottom: 15px;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+}
+
+img {
+	object-fit: cover;
+	width: 100%;
+}
+
+.cardContainer {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+}
+
+.card {
+}
