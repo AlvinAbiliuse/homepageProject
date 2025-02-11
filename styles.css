@@ -11,23 +11,34 @@
 
 
 body {
-	padding: 10px;
+	font-size: 1.2em;
 }
 
-body, header, footer {
+body, footer {
 	width: 100%;
 }
 
-header div,
 section,
-footer div {
+footer > div {
+	padding: 20px 150px;
 	max-width: 1200px;
 	margin: 0 auto;
 }
 
 .person {
-	width: 200px;
+	max-width: 400px;
+	overflow: hidden;
 }
+
 img {
+	object-fit: cover;
 	width: 100%;
+}
+
+@media (max-width:480px) {
+	header > div,
+	section,
+	footer > div {
+		padding: 10px;
+	}
 }
