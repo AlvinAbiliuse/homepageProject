@@ -1,6 +1,7 @@
 footer {
 	width: 100%;
 	> div {
+		padding: 50px;
 		background-color: #0891b2;
 		display: flex;
 		align-items: center;
@@ -10,7 +11,7 @@ footer {
 	.leftContents {
 		color: white;
 		> * {
-			margin: 20px;
+			margin: 30px;
 		}
 	}
 }
