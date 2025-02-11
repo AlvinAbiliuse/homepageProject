@@ -5,6 +5,7 @@
 	margin: 0;
 	line-height: 1.4em;
 	box-sizing: border-box;
+	outline: 1px solid red;
 }
 
 body {
@@ -26,7 +27,7 @@ header > div,
 section,
 footer > div {
 	padding: 20px 50px;
-	max-width: 1500px;
+	max-width: 1600px;
 	margin: 0 auto;
 }
 
