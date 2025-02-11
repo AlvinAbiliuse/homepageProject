@@ -1,4 +1,4 @@
-
+/* General Styles */
 
 * {
 	padding: 0;
@@ -8,18 +8,12 @@
 	outline: 1px solid red;
 }
 
-
-
 body {
 	font-size: 1.2em;
-}
-
-body, footer {
 	width: 100%;
 }
 
-section,
-footer > div {
+section {
 	padding: 20px 150px;
 	max-width: 1200px;
 	margin: 0 auto;
