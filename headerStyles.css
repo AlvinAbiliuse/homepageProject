@@ -41,7 +41,6 @@ header .rightContents {
 	padding-right: 20px;
 	justify-content: flex-end;
 	a {
-		background-color: black;
 		height: 40px;
 		width: 40px;
 	}
