@@ -18,8 +18,16 @@ header .rightContents {
 		margin: 10px;
 	}
 }
-header > div {
-	padding: 20px 150px;
-	max-width: 1200px;
-	margin: 0 auto;
+.colorContainer {
+	width: 100%;
+	padding: 0;
+}
+
+.color {
+	width: 100%;
+	position: relative;
+	top: 0;
+	padding: 100px;
+	background-color: blue;
+	z-index: -1;
 }
