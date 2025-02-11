@@ -1,0 +1,19 @@
+section {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.cardContainer {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 30px;
+}
+.card {
+}
+.imgPlaceholder {
+	aspect-ratio: 2/1.25;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
