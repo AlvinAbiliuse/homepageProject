@@ -4,10 +4,18 @@ section {
 
 .cardContainer {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	gap: 30px;
 }
 .card {
+	box-shadow: 1px 1px 10px lightgray;
+	padding-bottom: 10px;
+	.cardContents {
+		padding: 10px 20px;
+	}
+	div {
+		margin-bottom: 15px;
+	}
 }
 .imgPlaceholder {
 	aspect-ratio: 2/1.25;
