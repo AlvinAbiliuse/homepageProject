@@ -9,6 +9,7 @@ footer {
 	}
 	.leftContents {
 		color: white;
+		min-width: 200px;
 		flex: 1;
 		> * {
 			margin: 30px auto;

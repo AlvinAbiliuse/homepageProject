@@ -3,9 +3,10 @@ section {
 }
 
 .cardContainer {
+	margin-top: 15px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-	gap: 30px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 40px;
 }
 .card {
 	box-shadow: 1px 1px 10px lightgray;
@@ -17,6 +18,16 @@ section {
 		margin-bottom: 15px;
 	}
 }
+
+.topContents {
+	display: flex;
+	justify-content: space-between;
+	img {
+		width: 22px;
+		margin-left: 5px;
+	}
+}
+
 .imgPlaceholder {
 	aspect-ratio: 2/1.25;
 	color: white;
