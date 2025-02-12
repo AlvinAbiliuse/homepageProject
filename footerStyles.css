@@ -47,3 +47,7 @@ p img {
 	width: 20px;
 	vertical-align: center;
 }
+
+.person {
+	box-shadow: none;
+}

@@ -64,7 +64,11 @@ section {
 	header > div,
 	section,
 	footer > div {
-		padding: 30px;
+		padding: 40px;
+	}
+	.person.person {
+		width: 60%;
+		aspect-ratio: 1/1.1;
 	}
 }
 
