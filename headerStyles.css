@@ -13,16 +13,19 @@ header > div {
 header .rightContents {
 	padding: 20px;
 	background-color: white;
-	border: 1px solid black;
+	box-shadow: 1px 1px 10px lightgray;
 	min-width: 300px;
 	flex: 1;
 	> * {
-		margin: 30px;
+		margin-top: 20px;
 	}
 }
 
 .person {
 	position: relative;
+	aspect-ratio: 1/1;
+	background-position: center;
+	box-shadow: 1px 1px 10px lightgray;
 }
 
 .person h1 {
@@ -37,12 +40,12 @@ header .rightContents {
 
 .topIcons {
 	display: flex;
-	gap: 30px;
+	gap: 15px;
 	padding-right: 20px;
 	justify-content: flex-end;
 	a {
-		height: 40px;
-		width: 40px;
+		height: 30px;
+		width: 30px;
 	}
 }
 
