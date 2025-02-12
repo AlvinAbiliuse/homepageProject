@@ -6,15 +6,12 @@ section {
 	margin-top: 15px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-	gap: 40px;
+	gap: 35px;
 }
 .card {
 	.imgPlaceholder {
-		font-size: 1.6em;
-		font-family: PlayFair;
-		text-align: center;
 	}
-	box-shadow: 1px 1px 10px lightgray;
+	box-shadow: 0 0 15px lightgray;
 	padding-bottom: 30px;
 	.cardContents {
 		padding: 10px 20px;
@@ -37,9 +34,13 @@ section {
 }
 
 .imgPlaceholder {
-	aspect-ratio: 2/1.25;
+	aspect-ratio: 2/1.45;
 	color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 10px;
+	font-size: 1.6em;
+	font-family: PlayFair;
+	text-align: center;
 }
