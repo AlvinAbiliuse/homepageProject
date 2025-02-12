@@ -9,11 +9,14 @@ footer {
 		justify-content: center;
 		gap: 50px;
 	}
-	.leftContents.leftContents {
-		color: white !important;
+	.leftContents {
+		color: white;
 		flex: 1;
 		> * {
-			margin: 30px;
+			margin: 30px auto;
+		}
+		div p {
+			margin-bottom: 10px;
 		}
 	}
 }
@@ -32,4 +35,15 @@ footer div.person {
 		filter: brightness(0) saturate(100%) invert(99%) sepia(100%) saturate(1%)
 			hue-rotate(44deg) brightness(101%) contrast(101%);
 	}
+}
+
+p {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+p img {
+	width: 25px;
+	vertical-align: center;
 }
