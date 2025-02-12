@@ -5,17 +5,25 @@ section {
 .cardContainer {
 	margin-top: 15px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 	gap: 40px;
 }
 .card {
+	.imgPlaceholder {
+		font-size: 1.6em;
+		font-family: PlayFair;
+		text-align: center;
+	}
 	box-shadow: 1px 1px 10px lightgray;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 	.cardContents {
 		padding: 10px 20px;
 	}
 	div {
-		margin-bottom: 15px;
+		margin-bottom: 5px;
+	}
+	.cardDescription {
+		font-size: 0.8em;
 	}
 }
 
