@@ -4,6 +4,7 @@ footer {
 		padding: 50px;
 		background-color: #0891b2;
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
 		gap: 50px;

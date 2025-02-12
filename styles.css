@@ -19,7 +19,7 @@ body {
 }
 
 .person {
-	max-width: 550px;
+	max-width: 450px;
 	overflow: hidden;
 }
 
@@ -40,6 +40,12 @@ footer > div {
 	section,
 	footer > div {
 		padding: 5px;
+	}
+	.person {
+		aspect-ratio: 1/2;
+	}
+	.person h1 {
+		font-size: 20px;
 	}
 }
 
