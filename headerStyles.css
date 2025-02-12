@@ -49,20 +49,20 @@ header .rightContents {
 	}
 }
 
-/*
 .colorContainer {
-	display: initial;
-	position: fixed;
+	position: absolute;
 	left: 0;
 	top: -30px;
-	width: 100vw;
-	padding: 0;
+	width: 100%;
+	height: 500px;
 }
 
 .color {
 	width: 100%;
-	position: relative;
-	padding: 100px;
-	background-color: blue;
-	z-index: -1;
-} */
+	height: 100%;
+	position: absolute;
+	left: 0;
+	background-color: #0891b2;
+	z-index: 2;
+	clip-path: polygon(0 0, 100% 0, 100% 49%, 0% 100%);
+}
