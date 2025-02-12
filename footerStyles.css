@@ -6,11 +6,13 @@ footer {
 		align-items: center;
 		justify-content: center;
 		gap: 50px;
+		flex: 1;
 	}
 	.leftContents {
 		color: white;
 		min-width: 200px;
-		flex: 1;
+
+		flex: 2;
 		> * {
 			margin: 30px auto;
 		}
@@ -18,10 +20,6 @@ footer {
 			margin-bottom: 10px;
 		}
 	}
-}
-
-footer div.person {
-	max-width: 500px;
 }
 
 .bottomLinks {
